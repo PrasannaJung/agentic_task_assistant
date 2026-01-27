@@ -1,0 +1,21 @@
+{
+  "name": "agentic_task_management_assistant_chatbot",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/prompt-sync": "^4.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@langchain/google-genai": "^2.1.13",
+    "@langchain/langgraph": "^1.1.2",
+    "langchain": "^1.2.14",
+    "mongoose": "^9.1.5",
+    "prompt-sync": "^4.2.0",
+    "zod": "^4.3.6"
+  }
+}
